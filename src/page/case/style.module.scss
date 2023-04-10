@@ -1,0 +1,14 @@
+.case {
+  margin: 10% auto !important;
+  &_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  &_info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transform: translateY(30px);
+  }
+}

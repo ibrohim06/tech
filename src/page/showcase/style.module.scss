@@ -1,0 +1,26 @@
+.showcase {
+  margin: 5% 0;
+  &_flex {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    gap: 50px;
+  }
+  &_left {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 30px;
+    justify-content: center;
+    border-left: 4px solid #5c5cff;
+    height: 400px;
+    margin: auto;
+    padding-left: 3%;
+  }
+  &_right {
+    margin-bottom: -5px;
+    img {
+      border-radius: 0 10px 10px 0;
+    }
+  }
+}

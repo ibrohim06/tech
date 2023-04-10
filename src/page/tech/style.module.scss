@@ -1,0 +1,19 @@
+.tech {
+  margin-bottom: 10% !important;
+  &_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+  }
+  &_m {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 20%;
+  }
+  img {
+    position: relative;
+    z-index: -999;
+  }
+}

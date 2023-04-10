@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img {
+      transform: translateX(-10px);
+    }
+  }
+  &_left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+}

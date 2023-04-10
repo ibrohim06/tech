@@ -1,0 +1,38 @@
+.footer {
+  background-color: #1b1b4d;
+  padding: 5%;
+  &_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  &_flinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &_links {
+    text-align: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  &_btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    button {
+      width: 100%;
+    }
+  }
+  &_btns {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 20px;
+    h1 {
+      margin: 0;
+    }
+  }
+}
